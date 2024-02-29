@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02527022B90CC9300B5A4A7 /* ReducerConfusionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02527012B90CC9300B5A4A7 /* ReducerConfusionApp.swift */; };
+		D02527042B90CC9300B5A4A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02527032B90CC9300B5A4A7 /* ContentView.swift */; };
+		D02527062B90CC9500B5A4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02527052B90CC9500B5A4A7 /* Assets.xcassets */; };
+		D025270A2B90CC9500B5A4A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02527092B90CC9500B5A4A7 /* Preview Assets.xcassets */; };
+		D02527142B90CC9500B5A4A7 /* ReducerConfusionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02527132B90CC9500B5A4A7 /* ReducerConfusionTests.swift */; };
+		D025271E2B90CC9500B5A4A7 /* ReducerConfusionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025271D2B90CC9500B5A4A7 /* ReducerConfusionUITests.swift */; };
+		D02527202B90CC9500B5A4A7 /* ReducerConfusionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025271F2B90CC9500B5A4A7 /* ReducerConfusionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D02527102B90CC9500B5A4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D02526F62B90CC9300B5A4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D02526FD2B90CC9300B5A4A7;
+			remoteInfo = ReducerConfusion;
+		};
+		D025271A2B90CC9500B5A4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D02526F62B90CC9300B5A4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D02526FD2B90CC9300B5A4A7;
+			remoteInfo = ReducerConfusion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D02526FE2B90CC9300B5A4A7 /* ReducerConfusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReducerConfusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02527012B90CC9300B5A4A7 /* ReducerConfusionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducerConfusionApp.swift; sourceTree = "<group>"; };
+		D02527032B90CC9300B5A4A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D02527052B90CC9500B5A4A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D02527072B90CC9500B5A4A7 /* ReducerConfusion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReducerConfusion.entitlements; sourceTree = "<group>"; };
+		D02527092B90CC9500B5A4A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D025270F2B90CC9500B5A4A7 /* ReducerConfusionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReducerConfusionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02527132B90CC9500B5A4A7 /* ReducerConfusionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducerConfusionTests.swift; sourceTree = "<group>"; };
+		D02527192B90CC9500B5A4A7 /* ReducerConfusionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReducerConfusionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D025271D2B90CC9500B5A4A7 /* ReducerConfusionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducerConfusionUITests.swift; sourceTree = "<group>"; };
+		D025271F2B90CC9500B5A4A7 /* ReducerConfusionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducerConfusionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D02526FB2B90CC9300B5A4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D025270C2B90CC9500B5A4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02527162B90CC9500B5A4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D02526F52B90CC9300B5A4A7 = {
+			isa = PBXGroup;
+			children = (
+				D02527002B90CC9300B5A4A7 /* ReducerConfusion */,
+				D02527122B90CC9500B5A4A7 /* ReducerConfusionTests */,
+				D025271C2B90CC9500B5A4A7 /* ReducerConfusionUITests */,
+				D02526FF2B90CC9300B5A4A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D02526FF2B90CC9300B5A4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D02526FE2B90CC9300B5A4A7 /* ReducerConfusion.app */,
+				D025270F2B90CC9500B5A4A7 /* ReducerConfusionTests.xctest */,
+				D02527192B90CC9500B5A4A7 /* ReducerConfusionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D02527002B90CC9300B5A4A7 /* ReducerConfusion */ = {
+			isa = PBXGroup;
+			children = (
+				D02527012B90CC9300B5A4A7 /* ReducerConfusionApp.swift */,
+				D02527032B90CC9300B5A4A7 /* ContentView.swift */,
+				D02527052B90CC9500B5A4A7 /* Assets.xcassets */,
+				D02527072B90CC9500B5A4A7 /* ReducerConfusion.entitlements */,
+				D02527082B90CC9500B5A4A7 /* Preview Content */,
+			);
+			path = ReducerConfusion;
+			sourceTree = "<group>";
+		};
+		D02527082B90CC9500B5A4A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D02527092B90CC9500B5A4A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D02527122B90CC9500B5A4A7 /* ReducerConfusionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D02527132B90CC9500B5A4A7 /* ReducerConfusionTests.swift */,
+			);
+			path = ReducerConfusionTests;
+			sourceTree = "<group>";
+		};
+		D025271C2B90CC9500B5A4A7 /* ReducerConfusionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D025271D2B90CC9500B5A4A7 /* ReducerConfusionUITests.swift */,
+				D025271F2B90CC9500B5A4A7 /* ReducerConfusionUITestsLaunchTests.swift */,
+			);
+			path = ReducerConfusionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D02526FD2B90CC9300B5A4A7 /* ReducerConfusion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02527232B90CC9500B5A4A7 /* Build configuration list for PBXNativeTarget "ReducerConfusion" */;
+			buildPhases = (
+				D02526FA2B90CC9300B5A4A7 /* Sources */,
+				D02526FB2B90CC9300B5A4A7 /* Frameworks */,
+				D02526FC2B90CC9300B5A4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReducerConfusion;
+			productName = ReducerConfusion;
+			productReference = D02526FE2B90CC9300B5A4A7 /* ReducerConfusion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D025270E2B90CC9500B5A4A7 /* ReducerConfusionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02527262B90CC9500B5A4A7 /* Build configuration list for PBXNativeTarget "ReducerConfusionTests" */;
+			buildPhases = (
+				D025270B2B90CC9500B5A4A7 /* Sources */,
+				D025270C2B90CC9500B5A4A7 /* Frameworks */,
+				D025270D2B90CC9500B5A4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D02527112B90CC9500B5A4A7 /* PBXTargetDependency */,
+			);
+			name = ReducerConfusionTests;
+			productName = ReducerConfusionTests;
+			productReference = D025270F2B90CC9500B5A4A7 /* ReducerConfusionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D02527182B90CC9500B5A4A7 /* ReducerConfusionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02527292B90CC9500B5A4A7 /* Build configuration list for PBXNativeTarget "ReducerConfusionUITests" */;
+			buildPhases = (
+				D02527152B90CC9500B5A4A7 /* Sources */,
+				D02527162B90CC9500B5A4A7 /* Frameworks */,
+				D02527172B90CC9500B5A4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D025271B2B90CC9500B5A4A7 /* PBXTargetDependency */,
+			);
+			name = ReducerConfusionUITests;
+			productName = ReducerConfusionUITests;
+			productReference = D02527192B90CC9500B5A4A7 /* ReducerConfusionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D02526F62B90CC9300B5A4A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D02526FD2B90CC9300B5A4A7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D025270E2B90CC9500B5A4A7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D02526FD2B90CC9300B5A4A7;
+					};
+					D02527182B90CC9500B5A4A7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D02526FD2B90CC9300B5A4A7;
+					};
+				};
+			};
+			buildConfigurationList = D02526F92B90CC9300B5A4A7 /* Build configuration list for PBXProject "ReducerConfusion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D02526F52B90CC9300B5A4A7;
+			productRefGroup = D02526FF2B90CC9300B5A4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D02526FD2B90CC9300B5A4A7 /* ReducerConfusion */,
+				D025270E2B90CC9500B5A4A7 /* ReducerConfusionTests */,
+				D02527182B90CC9500B5A4A7 /* ReducerConfusionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D02526FC2B90CC9300B5A4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D025270A2B90CC9500B5A4A7 /* Preview Assets.xcassets in Resources */,
+				D02527062B90CC9500B5A4A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D025270D2B90CC9500B5A4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02527172B90CC9500B5A4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D02526FA2B90CC9300B5A4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02527042B90CC9300B5A4A7 /* ContentView.swift in Sources */,
+				D02527022B90CC9300B5A4A7 /* ReducerConfusionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D025270B2B90CC9500B5A4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02527142B90CC9500B5A4A7 /* ReducerConfusionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02527152B90CC9500B5A4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02527202B90CC9500B5A4A7 /* ReducerConfusionUITestsLaunchTests.swift in Sources */,
+				D025271E2B90CC9500B5A4A7 /* ReducerConfusionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D02527112B90CC9500B5A4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D02526FD2B90CC9300B5A4A7 /* ReducerConfusion */;
+			targetProxy = D02527102B90CC9500B5A4A7 /* PBXContainerItemProxy */;
+		};
+		D025271B2B90CC9500B5A4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D02526FD2B90CC9300B5A4A7 /* ReducerConfusion */;
+			targetProxy = D025271A2B90CC9500B5A4A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D02527212B90CC9500B5A4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D02527222B90CC9500B5A4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D02527242B90CC9500B5A4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReducerConfusion/ReducerConfusion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReducerConfusion/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzbrooks.ReducerConfusion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D02527252B90CC9500B5A4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReducerConfusion/ReducerConfusion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReducerConfusion/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzbrooks.ReducerConfusion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D02527272B90CC9500B5A4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzbrooks.ReducerConfusionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReducerConfusion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReducerConfusion";
+			};
+			name = Debug;
+		};
+		D02527282B90CC9500B5A4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzbrooks.ReducerConfusionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReducerConfusion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReducerConfusion";
+			};
+			name = Release;
+		};
+		D025272A2B90CC9500B5A4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzbrooks.ReducerConfusionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReducerConfusion;
+			};
+			name = Debug;
+		};
+		D025272B2B90CC9500B5A4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzbrooks.ReducerConfusionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReducerConfusion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D02526F92B90CC9300B5A4A7 /* Build configuration list for PBXProject "ReducerConfusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02527212B90CC9500B5A4A7 /* Debug */,
+				D02527222B90CC9500B5A4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02527232B90CC9500B5A4A7 /* Build configuration list for PBXNativeTarget "ReducerConfusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02527242B90CC9500B5A4A7 /* Debug */,
+				D02527252B90CC9500B5A4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02527262B90CC9500B5A4A7 /* Build configuration list for PBXNativeTarget "ReducerConfusionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02527272B90CC9500B5A4A7 /* Debug */,
+				D02527282B90CC9500B5A4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02527292B90CC9500B5A4A7 /* Build configuration list for PBXNativeTarget "ReducerConfusionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D025272A2B90CC9500B5A4A7 /* Debug */,
+				D025272B2B90CC9500B5A4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D02526F62B90CC9300B5A4A7 /* Project object */;
+}
